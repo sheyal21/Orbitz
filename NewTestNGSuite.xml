@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.itexps_orbitz_jar_1.0-SNAPSHOT">
+
+    <!--
+    see examples at http://testng.org/doc/documentation-main.html#testng-xml
+
+        <suite-files>
+            <suite-file path="./junit-suite.xml" />
+        </suite-files>
+    -->
+    <test name="Orbitz">
+        <classes>
+           
+            <class name="test.com.itexps.orbitz.MulticityFlightTest" />
+             <class name="test.com.itexps.orbitz.RoundTripFlightTest" />
+              <class name="test.com.itexps.orbitz.OnewayFlightTest" />
+        </classes>
+    </test>
+    
+    <!--
+        <test name="All tests for com.itexps_orbitz_jar_1.0-SNAPSHOT">
+            <packages>
+                <package name="*"/>
+            </packages>
+        </test>
+    -->
+</suite>
