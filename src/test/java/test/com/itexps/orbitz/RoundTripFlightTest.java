@@ -1,8 +1,8 @@
 package test.com.itexps.orbitz;
 
 
-import org.junit.Test;
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
