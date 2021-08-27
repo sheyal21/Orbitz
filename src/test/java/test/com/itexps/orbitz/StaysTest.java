@@ -1,13 +1,7 @@
 package test.com.itexps.orbitz;
 
 
-import static java.awt.SystemColor.text;
-import static org.apache.poi.hssf.usermodel.HeaderFooter.tab;
-
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.annotations.Test;
 
 /*
@@ -20,8 +14,6 @@ import org.testng.annotations.Test;
  * @author sheya
  */
 public class StaysTest extends BaseTest {
-
-    
 
     @Test
     public void testStay() throws Exception {
@@ -59,7 +51,6 @@ public class StaysTest extends BaseTest {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
 
 //        driver.findElement(By.linkText("More information about The Westin New York at Times Square, Opens in a new window")).click();
-
     }
 
 //    @Test // one way flight to las vegas
