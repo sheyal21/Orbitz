@@ -16,7 +16,7 @@
             <class name="test.com.itexps.orbitz.RoundTripFlightTest" />
             <class name="test.com.itexps.orbitz.OnewayFlightTest" />
             <class name="test.com.itexps.orbitz.StaysTest" />
-            <class name="test.com.itexps.orbitz.ThingsToDoTest" />
+          <!--  <class name="test.com.itexps.orbitz.ThingsToDoTest" /> -->
         </classes>
     </test>
     
